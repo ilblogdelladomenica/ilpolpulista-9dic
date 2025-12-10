@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="it"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;IL POLPULISTA - Anatomia del Mondo Nuovo&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tailwind CSS for styling --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Fonts --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&amp;family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&amp;family=Oswald:wght@500;700&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Custom Fonts mimicking the newspaper style */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-masthead { font-family: 'Playfair Display', serif; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-body { font-family: 'Merriweather', serif; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-sans-condensed { font-family: 'Oswald', sans-serif; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-headline { font-family: 'Libre Baskerville', serif; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Typography tweaks for newspaper look */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-justify-news {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: justify;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-justify: inter-word;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.first-letter-drop::first-letter {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>float: left;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 0.8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: -0.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #1a1a1a;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Vertical dividers */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.separator-r {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-right: 1px solid #d1d5db;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-right: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Responsive overrides */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 1024px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.separator-r {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>border-right: none;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding-right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>margin-right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>border-bottom: 1px solid #e5e7eb;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding-bottom: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>margin-bottom: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-[#f9f7f1] text-[#1a1a1a] p-2 md:p-6 min-h-screen"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Wrapper --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="max-w-[1400px] mx-auto bg-white shadow-xl p-4 md:p-8 border-t-4 border-red-700"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- HEADER / MASTHEAD --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header class="mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Top Ad Row &amp; Title --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col md:flex-row justify-between items-center border-b-2 border-black pb-4 mb-2"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Left Ear (Polpo SVG) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="hidden md:flex w-32 h-24 items-center justify-center p-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Yellow Body --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M50 15 C30 15 15 30 15 50 C15 65 25 75 30 75 C35 75 35 65 30 60 C25 55 25 45 30 40 C35 35 65 35 70 40 C75 45 75 55 70 60 C65 65 65 75 70 75 C75 75 85 65 85 50 C85 30 70 15 50 15 Z" fill="#FFD700" stroke="#E6AC00" stroke-width="2"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Tentacles Left --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M20 50 Q10 60 15 70 Q20 80 10 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M20 50 Q10 60 15 70 Q20 80 10 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M30 60 Q25 75 35 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M30 60 Q25 75 35 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;!-- Tentacles Right --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M80 50 Q90 60 85 70 Q80 80 90 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M80 50 Q90 60 85 70 Q80 80 90 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M70 60 Q75 75 65 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M70 60 Q75 75 65 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;!-- Tentacles Center --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M42 65 Q40 80 45 88" fill="none" stroke="#FFD700" stroke-width="7" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M58 65 Q60 80 55 88" fill="none" stroke="#FFD700" stroke-width="7" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Face --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="40" cy="45" r="3" fill="#333"/&gt; &lt;!-- Eye L --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="60" cy="45" r="3" fill="#333"/&gt; &lt;!-- Eye R --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M42 55 Q50 62 58 55" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/&gt; &lt;!-- Smile --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Highlight --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ellipse cx="35" cy="30" rx="5" ry="3" fill="white" opacity="0.4"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Main Title --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex-1 text-center px-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1 class="font-masthead font-black text-6xl md:text-9xl tracking-tighter leading-none transform scale-y-110"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>IL POLPULISTA</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="relative -mt-2 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="bg-white px-4 font-body italic text-lg relative z-10"&gt;quotidiano&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="absolute top-1/2 left-0 w-full h-px bg-black -z-0"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Right Ear (Polpo SVG) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="hidden md:flex w-32 h-24 items-center justify-center p-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Yellow Body --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M50 15 C30 15 15 30 15 50 C15 65 25 75 30 75 C35 75 35 65 30 60 C25 55 25 45 30 40 C35 35 65 35 70 40 C75 45 75 55 70 60 C65 65 65 75 70 75 C75 75 85 65 85 50 C85 30 70 15 50 15 Z" fill="#FFD700" stroke="#E6AC00" stroke-width="2"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Tentacles Left --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M20 50 Q10 60 15 70 Q20 80 10 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M20 50 Q10 60 15 70 Q20 80 10 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M30 60 Q25 75 35 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M30 60 Q25 75 35 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;!-- Tentacles Right --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M80 50 Q90 60 85 70 Q80 80 90 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M80 50 Q90 60 85 70 Q80 80 90 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M70 60 Q75 75 65 85" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M70 60 Q75 75 65 85" fill="none" stroke="#E6AC00" stroke-width="2" stroke-linecap="round" opacity="0.5"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;!-- Tentacles Center --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M42 65 Q40 80 45 88" fill="none" stroke="#FFD700" stroke-width="7" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M58 65 Q60 80 55 88" fill="none" stroke="#FFD700" stroke-width="7" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Face --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="40" cy="45" r="3" fill="#333"/&gt; &lt;!-- Eye L --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="60" cy="45" r="3" fill="#333"/&gt; &lt;!-- Eye R --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M42 55 Q50 62 58 55" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/&gt; &lt;!-- Smile --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Highlight --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ellipse cx="35" cy="30" rx="5" ry="3" fill="white" opacity="0.4"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Meta Bar --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col md:flex-row justify-between items-center border-b border-black py-1 text-xs font-sans-condensed uppercase tracking-widest"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:w-1/3"&gt;&lt;/div&gt; &lt;!-- Removed Year/Number --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:w-1/3 text-center font-bold text-sm"&gt;DIRETTORE IL POLPO DELLA DOMENICA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="md:w-1/3 text-right"&gt;Martedì 9 Dicembre 2025 - € 1,80&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- TOP EDITORIAL (Deck) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="mb-8 border-b border-gray-300 pb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-headline font-bold text-2xl md:text-3xl text-blue-900 mb-2 leading-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Potere, Narrazione e Nostalgia: Anatomia del Mondo Nuovo</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="font-sans-condensed font-bold text-lg text-gray-600 mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Tre vicende apparentemente slegate offrono una prospettiva prismatica sul potere contemporaneo: David Ellison, lo scandalo NATO-Elbit e l'elegia di Stenio Solinas.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="font-body text-sm md:text-base leading-snug text-justify-news text-gray-800 columns-1 md:columns-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="first-letter-drop mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Per comprendere la natura del potere nel mondo contemporaneo, è necessario osservarlo attraverso lenti diverse, capaci di coglierne le manifestazioni più sofisticate, quelle più brute e quelle culturali. La metodica scalata ai media globali di David Ellison per "cambiare la narrativa su Israele"; lo scandalo di corruzione che travolge un'agenzia chiave della NATO e coinvolge il colosso israeliano della difesa Elbit; infine, la riflessione malinconica di Stenio Solinas nel suo libro &lt;em&gt;Supervagamondo&lt;/em&gt;, un'elegia per un'epoca di stile e identità ormai perduta.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>La tesi di fondo è che tali vicende non si limitino a rivelare le meccaniche del potere contemporaneo, ma ne costituiscano l'architettura operativa: un circuito integrato in cui il controllo della narrazione abilita e normalizza la corruzione sistemica, la quale a sua volta prolifera nel vuoto valoriale e identitario diagnosticato dalla critica culturale. È un potere post-ideologico che agisce sulla percezione, sul profitto e sul disorientamento psicologico.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Questo saggio si propone di analizzare ciascuna di queste dinamiche. Inizieremo con gli architetti della percezione, esplorando l'impero mediatico degli Ellison. Proseguiremo esaminando gli ingranaggi materiali della macchina bellica, dove lo scandalo NATO-Elbit svela la corruzione come sistema. Infine, ci immergeremo nel disincanto culturale descritto da Solinas, per comprendere il vuoto strategico che questo nuovo ordine sfrutta, prima di giungere a una sintesi che intrecci questi fili in un ritratto coerente del nostro tempo.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- MAIN GRID LAYOUT --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;main class="grid grid-cols-1 lg:grid-cols-5 gap-0"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- COLUMN 1: Ellison --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="lg:col-span-1 separator-r"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="font-headline font-bold text-xl mb-2 leading-tight text-red-800"&gt;Architetti della Percezione&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h4 class="font-sans-condensed font-bold text-sm mb-4 leading-snug"&gt;La Nuova Propaganda nell'Era Ellison: modellare il pianeta senza che se ne accorga.&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="font-body text-xs leading-relaxed text-justify-news"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;&lt;span class="font-bold uppercase"&gt;Media.&lt;/span&gt; Nel XXI secolo, la più potente forma di influenza geopolitica non si esercita più soltanto con gli eserciti, ma con il controllo strategico della narrazione. Il dominio sull'immaginario collettivo, sugli algoritmi che lo plasmano e sulle infrastrutture che lo veicolano è il vero campo di battaglia per il potere. Nessuno sembra averlo compreso meglio della dinastia Ellison.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;La loro strategia non si basa sulla censura tradizionale, ma su un controllo totalizzante. L'acquisizione di Paramount, l'assalto a Warner Bros. e la presa di controllo su TikTok USA non sono semplici operazioni finanziarie, ma la costruzione di un ecosistema integrato. L'obiettivo dichiarato, di una chiarezza disarmante, è quello di "cambiare la narrativa su Israele". Questa architettura del consenso opera in sinergia con il potere politico, come dimostra il legame con il "Tony Blair Institute for Global Change".&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- COLUMN 2: NATO/Elbit + Cartoon --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="lg:col-span-1 separator-r flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-headline font-bold text-xl mb-1"&gt;La Macchina Bellica&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="font-sans-condensed text-xs mb-2 text-gray-600"&gt;Corruzione come Sistema alla NATO: lo scandalo NSPA&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-body text-xs leading-relaxed text-justify-news"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="font-bold uppercase"&gt;Bruxelles.&lt;/span&gt; La narrazione immacolata, elaborata nelle stanze del potere della Silicon Valley, trova il suo sordido corrispettivo materiale nelle transazioni opache del commercio globale di armi. L'invasione russa dell'Ucraina ha innescato un aumento esponenziale delle spese militari, creando un terreno fertile per la corruzione sistemica, come dimostra lo scandalo che ha travolto la NSPA (Nato Support and Procurement Agency).</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- CARTOON PLACEHOLDER --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="my-4 border border-gray-800 p-2 bg-gray-100 text-center relative"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg viewBox="0 0 200 150" class="w-full h-auto opacity-80" fill="none" stroke="currentColor" stroke-width="2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;rect x="10" y="10" width="180" height="130" stroke="black" fill="white"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Updated cartoon content: A figure painting over a tank --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M40 100 L160 100 L150 70 L50 70 Z" /&gt; &lt;!-- Tank body --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;rect x="80" y="50" width="40" height="20" /&gt; &lt;!-- Turret --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;line x1="120" y1="60" x2="170" y2="50" stroke-width="4" /&gt; &lt;!-- Barrel --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Painter Figure --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="50" cy="90" r="10" fill="white" stroke="black"/&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;line x1="50" y1="100" x2="50" y2="120" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;line x1="50" y1="110" x2="70" y2="100" /&gt; &lt;!-- Arm holding brush --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;line x1="70" y1="100" x2="90" y2="80" /&gt; &lt;!-- Brush handle --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Bubble --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M60 40 L90 20 L100 40 Z" fill="black" stroke="none" class="opacity-10"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-handwriting text-xs mt-1 font-bold font-sans italic text-gray-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>"UN ATTIMO, STO RIDIPINGENDO LA REALTÀ."</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- COLUMN 3: Solinas --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article class="lg:col-span-1 separator-r"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="font-headline font-bold text-xl mb-1"&gt;Un Mondo Perduto&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h4 class="font-sans-condensed text-xs mb-2 text-gray-600"&gt;L'Elegia Culturale di "Supervagamondo" e il vuoto strategico&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="font-body text-xs leading-relaxed text-justify-news"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;&lt;span class="font-bold uppercase"&gt;Cultura.&lt;/span&gt; Se le operazioni di Ellison e lo scandalo NATO descrivono come il potere opera, il libro &lt;em&gt;Supervagamondo&lt;/em&gt; di Stenio Solinas offre una chiave di lettura culturale per capire perché questo potere trovi un terreno così fertile. La nostalgia per "il mondo di ieri" che pervade il saggio non è una semplice fuga dal presente, ma un sintomo diagnostico del collasso di un immaginario collettivo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;La critica di Solinas si articola in un netto contrasto tra un passato idealizzato e un presente percepito come degradato ("logica del brutto"). Il vuoto culturale che Solinas lamenta non è un mero sfondo, ma una vulnerabilità strategica. Un'opinione pubblica disorientata e orfana di un'identità condivisa è un corpo sociale demotivato, privo degli anticorpi critici necessari per decifrare i meccanismi di controllo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- COLUMN 4 &amp; 5: Detail Boxes (Fact Checking) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="lg:col-span-2 flex flex-col md:flex-row gap-4"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Sub Col 1: Ellison Details --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;article class="flex-1 separator-r md:border-r-0 md:pr-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-headline font-bold text-lg mb-1 text-blue-800"&gt;Il Piano Ellison&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="font-sans-condensed text-xs mb-2"&gt;Le manovre per rimodellare la percezione pubblica "sulla nuvola".&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul class="font-body text-xs leading-relaxed list-disc pl-4 space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;strong&gt;Warner Bros:&lt;/strong&gt; Un'offerta da 108 miliardi di dollari per l'intero gruppo, inclusa la CNN.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;strong&gt;CBS News:&lt;/strong&gt; Attraverso Paramount, insediamento della "commentatrice sionista Bari Weiss" come top editor.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;strong&gt;TikTok:&lt;/strong&gt; Il sospetto "assai fondato" di una revisione silenziosa dell'algoritmo più influente del mondo.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Sub Col 2: NATO Scandal Details --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;article class="flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-headline font-bold text-lg mb-1"&gt;Lo Scandalo NSPA&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="font-sans-condensed text-xs mb-2"&gt;Il meccanismo oliato scoperchiato dalla Procura federale del Belgio.&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-body text-xs leading-relaxed text-justify-news bg-gray-100 p-2 border border-gray-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="mb-1"&gt;&lt;strong&gt;L'ENTE:&lt;/strong&gt; NSPA, contratti "quasi triplicati dal 2021", valore stimato 9,5 mld di euro.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="mb-1"&gt;&lt;strong&gt;L'AZIENDA:&lt;/strong&gt; Elbit Systems, colosso israeliano che "testa le sue armi a Gaza".&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="mb-1"&gt;&lt;strong&gt;L'UOMO CHIAVE:&lt;/strong&gt; Eliau Eluasvili, ricercato per corruzione attiva.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;&lt;strong&gt;IL MECCANISMO:&lt;/strong&gt; Tangenti per 1,9 milioni di euro per "ottenere contratti strategici".&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;hr class="border-t-2 border-black my-6"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- BOTTOM SECTION: Conclusion --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="grid grid-cols-1 lg:grid-cols-4 gap-6"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Bottom Left Main --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="lg:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="font-masthead font-bold text-4xl mb-2"&gt;Conclusione: Intrecciare i Fili di un'Età Disincantata&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="font-sans-condensed font-bold text-lg text-gray-700 mb-4"&gt;Il paradigma di un nuovo potere post-ideologico che non governa più i corpi, ma ingegnerizza il consenso.&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="font-body text-sm leading-snug text-justify-news columns-1 md:columns-3 gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3 first-letter-drop"&gt;L'analisi di queste tre istantanee del nostro tempo—il potere che si esercita attraverso il controllo totale della narrazione (Ellison), quello che opera mediante la corruzione strutturale degli apparati militari-industriali (scandalo Elbit/NATO), e la profonda disillusione culturale che ne consegue (Solinas)—rivela il paradigma di un nuovo potere post-ideologico.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;Ci troviamo di fronte a un'età in cui le grandi narrazioni del Novecento sono state sostituite da un pragmatismo brutale, dove il profitto, l'influenza e il controllo sono diventati gli unici valori guida. Il potere non ha più bisogno di giustificarsi con un'ideologia; gli basta possedere l'architettura per fabbricare la realtà e gli ingranaggi per trarne profitto. Il disincanto culturale non è un effetto collaterale, ma una condizione operativa che smorza la resistenza. Ciò che è emblematico nel caso NSPA non è tanto la corruzione in sé, quanto la sua integrazione sistemica.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-3"&gt;In questo "mondo nuovo", dominato da architetti della percezione e dagli invisibili meccanismi di un potere senza scrupoli, la domanda finale è inevitabile. Quali spazi rimangono per la verità, per l'integrità e per una cultura autentica? Come si può articolare una resistenza di fronte a un potere che non si limita più a governare i corpi, ma aspira a ingegnerizzare il consenso al punto da rendere il dissenso non solo impraticabile, ma persino inconcepibile? La perdita di "bellezza" e "stile" descritta da Solinas si traduce in una perdita di armatura critica.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Bottom Right Column (Sidebar) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="lg:col-span-1 border-l pl-4 border-gray-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-masthead font-bold italic text-2xl border-b border-black pb-1 mb-2"&gt;Polpo's Version&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- SVG Small Polpo for Polpo's Version --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="float-left w-16 h-16 mr-3 border border-gray-400 p-1 bg-white mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;svg viewBox="0 0 100 100" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;path d="M50 15 C30 15 15 30 15 50 C15 65 25 75 30 75 C35 75 35 65 30 60 C25 55 25 45 30 40 C35 35 65 35 70 40 C75 45 75 55 70 60 C65 65 65 75 70 75 C75 75 85 65 85 50 C85 30 70 15 50 15 Z" fill="#999" stroke="#666" stroke-width="2"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;path d="M20 50 Q10 60 15 70 Q20 80 10 85" fill="none" stroke="#999" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;path d="M80 50 Q90 60 85 70 Q80 80 90 85" fill="none" stroke="#999" stroke-width="8" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;circle cx="40" cy="45" r="3" fill="#333"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;circle cx="60" cy="45" r="3" fill="#333"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;path d="M42 55 Q50 62 58 55" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-body text-xs text-justify-news"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="font-bold drop-cap text-3xl float-left mr-1"&gt;S&lt;/span&gt;e Solinas ha ragione, la "mediocrità delle offerte" e la "logica del brutto" non sono accidenti, ma strumenti. Il vero dandismo oggi forse non sta nel vestire bene, ma nel rifiutare di farsi vestire dalle narrazioni altrui.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-blue-100 p-3 mt-4 text-center border border-blue-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h5 class="font-sans-condensed font-bold text-blue-800 uppercase text-xs mb-1"&gt;Focus&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="font-serif text-sm italic"&gt;Approfondimento su Elbit e Leonardo&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-xs mt-1 font-bold"&gt;A pagina quattro&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- FOOTER --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="mt-8 border-t border-gray-400 pt-2 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-[10px] font-sans text-gray-500 uppercase"&gt;Sped. in Abb. Postale - DL 353/2003 (Conv. in L. 27/02/2004 n.46) art. 1, comma 1, DCB Roma&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
